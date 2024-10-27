@@ -1,3 +1,7 @@
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /* override the default style of the browser this rule is general we can edit the value for specific elment underneath this rule */
 * {
     padding: 0;
