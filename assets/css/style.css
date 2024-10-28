@@ -126,7 +126,7 @@ main {
     text-align: center;
 }
 
-#benefits-physical div, #benefits-mental div  {
+#benefits-physical>div, #benefits-mental>div  {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -138,6 +138,22 @@ main {
 
 #benefits p {
     padding: 0 20px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-bg-cover{
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    margin-bottom: 20px;
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* Footer style */
