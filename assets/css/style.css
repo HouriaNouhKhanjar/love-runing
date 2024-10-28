@@ -114,6 +114,16 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+}
+
 /* Footer style */
 #social-networks {
     text-align: center;
